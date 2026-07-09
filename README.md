@@ -1,5 +1,12 @@
 <h1 align="center">Hi, I'm Ankit 👋</h1>
-<h3 align="center">Sr. DevOps Engineer — Platform Engineering, Cloud & Automation</h3>
+
+<p align="center">
+  <strong>Sr. DevOps Engineer — Platform Engineering, Cloud & Automation</strong>
+</p>
+
+<p align="center">
+  <em>Infrastructure as code, delivery as a habit.</em>
+</p>
 
 <p align="center">
   <a href="https://github.com/dhwani-ankit?tab=followers"><img src="https://img.shields.io/github/followers/dhwani-ankit?label=Follow&style=social" alt="GitHub followers" /></a>
@@ -8,21 +15,21 @@
 
 ---
 
-### 🚀 About Me
+## 🚀 About Me
 
-I design and operate cloud-native platforms — turning infrastructure into code and shipping reliable, repeatable delivery pipelines. I currently build and run platform infrastructure at **Dhwani RIS**, supporting government & CSR-scale applications.
+I design and operate **cloud-native platforms** — turning infrastructure into code and shipping reliable, repeatable delivery pipelines. I currently build and run platform infrastructure at **[Dhwani RIS](https://github.com/dhwani-ris)**, supporting government & CSR-scale social-impact applications.
 
 - 🔭 Working on **Kubernetes (EKS) platforms, GitOps with ArgoCD, and Terraform-driven infrastructure**
 - 🌱 Deepening expertise in **platform reliability, observability, and cost optimization**
-- ⚙️ I automate the boring stuff — CI/CD, release pipelines, and self-service developer tooling
+- ⚙️ I automate the boring stuff — **CI/CD, release pipelines, and self-service developer tooling**
 - 🐍 Comfortable across the stack: **Python, JavaScript, and the Frappe framework**
 - 📫 Reach me at **ravi.jangir@dhwaniris.com**
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-**Cloud & Infra**
+**Cloud & Infrastructure**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
@@ -53,7 +60,7 @@ I design and operate cloud-native platforms — turning infrastructure into code
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dhwani-ankit&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Ankit's GitHub stats" />
@@ -66,11 +73,16 @@ I design and operate cloud-native platforms — turning infrastructure into code
 
 ---
 
-### 🌐 Connect
+## 🌐 Get In Touch
 
 <p align="center">
   <a href="mailto:ravi.jangir@dhwaniris.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/dhwani-ankit"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://in.linkedin.com/company/dhwaniris"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://dhwaniris.com"><img src="https://img.shields.io/badge/Website-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
 </p>
 
-<p align="center"><i>“Infrastructure as code, delivery as a habit.”</i></p>
+---
+
+<p align="center">
+  <em>Growing social impact, one pipeline at a time 🌱</em>
+</p>
