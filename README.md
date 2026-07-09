@@ -1,29 +1,53 @@
 <h1 align="center">Ankit Jangir</h1>
 
 <p align="center">
-  Sr. DevOps Engineer · Platform Engineering · Cloud · Automation
+  <strong>Sr. DevOps Engineer</strong> · Platform Engineering · Cloud · Automation
+</p>
+
+<p align="center">
+  <em>Infrastructure as code, delivery as a habit.</em>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ankit-jangir-devops"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:ankitjangir.1690@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/dhwani-ankit?tab=followers"><img src="https://img.shields.io/github/followers/dhwani-ankit?style=flat-square&logo=github&label=Follow&labelColor=181717&color=555" alt="Follow" /></a>
+  <a href="https://github.com/dhwani-ris"><img src="https://img.shields.io/badge/Dhwani%20RIS-181717?style=flat-square&logo=github&logoColor=white" alt="Dhwani RIS" /></a>
 </p>
 
-<hr>
+---
 
-### About
+## About
 
-I design and operate **cloud-native platforms** — turning infrastructure into code and shipping reliable, repeatable delivery pipelines. I build and run platform infrastructure at **[Dhwani RIS](https://github.com/dhwani-ris)**, powering government & CSR-scale social-impact applications (including the **mGrant** grant-management platform). Focused on **reliability, observability, and cloud cost optimization**.
+I'm a Sr. DevOps Engineer at **[Dhwani RIS](https://github.com/dhwani-ris)**, where I design, build, and operate cloud-native platforms for government & CSR-scale social-impact applications — including the **mGrant** grant-management platform used across dozens of donors and thousands of NGOs.
 
-### Tech
+My work is turning infrastructure into code, automating the path from commit to production, and keeping systems reliable and cost-efficient — so engineers ship faster and platforms just stay up.
+
+## What I Build
+
+- **Cloud platforms on AWS** — EKS clusters, networking, and IAM provisioned entirely with Terraform
+- **GitOps delivery** — ArgoCD with GitHub Actions / GitLab CI pipelines, quality gates, and zero-downtime deployments
+- **Frappe / ERPNext platform engineering** — standardized project templates and automated, gated release flows
+- **Observability & reliability** — Prometheus, Grafana, and Loki for metrics, logs, and alerting; backups, secrets, and cost control
+
+## Featured Projects
+
+**[aws-email-rate-limiter](https://github.com/dhwani-ankit/aws-email-rate-limiter)** &nbsp;·&nbsp; `Python`
+Serverless solution to track and rate-limit outbound email per caller identity using AWS Lambda, DynamoDB, SES & SNS — with automatic SES deactivation once a daily quota is exceeded.
+
+**[frappe-release-pipeline-demo](https://github.com/dhwani-ankit/frappe-release-pipeline-demo)** &nbsp;·&nbsp; `Shell`
+A complete automated release flow for Frappe applications: PR linting/testing/SonarQube checks, CODEOWNERS-based DevOps gatekeeping, and automated deployments.
+
+**[frappe-standard-template](https://github.com/dhwani-ankit/frappe-standard-template)** &nbsp;·&nbsp; `JavaScript`
+A standardized starter template for Frappe projects — QC-plan integration, branch-protection setup, and getting-started docs baked in for consistent, production-ready repositories.
+
+## Tech
 
 **Cloud & IaC** &nbsp;
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 
-**Containers** &nbsp;
+**Containers & Orchestration** &nbsp;
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -45,12 +69,16 @@ I design and operate **cloud-native platforms** — turning infrastructure into 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-<hr>
+## Get in Touch
 
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub metrics" />
-</p>
+Open to conversations on platform engineering, cloud infrastructure, and DevOps for social impact.
 
-<p align="center"><sub><i>Infrastructure as code, delivery as a habit.</i></sub></p>
+- 💼 LinkedIn — [in/ankit-jangir-devops](https://www.linkedin.com/in/ankit-jangir-devops)
+- 📫 Email — ankitjangir.1690@gmail.com
+
+---
+
+<p align="center"><sub><i>Building reliable platforms for technology that does good. 🌱</i></sub></p>
