@@ -1,84 +1,76 @@
 <h1 align="center">Ankit Jangir</h1>
 
 <p align="center">
-  <strong>Sr. DevOps Engineer</strong> · Platform Engineering · Cloud · Automation
+  <strong>Sr. DevOps Engineer</strong> &nbsp;·&nbsp; Cloud Infrastructure &nbsp;·&nbsp; DevSecOps &nbsp;·&nbsp; Platform Engineering
 </p>
 
 <p align="center">
-  <em>Infrastructure as code, delivery as a habit.</em>
+  <em>Infrastructure as code, evidence as a deliverable.</em>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ankit-jangir-devops"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://ankitjangir.cloudsaathi.com"><img src="https://img.shields.io/badge/Portfolio-2D6A4F?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/ankit-jangir-7a3955140/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:ankitjangir.1690@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/dhwani-ris"><img src="https://img.shields.io/badge/Dhwani%20RIS-181717?style=flat-square&logo=github&logoColor=white" alt="Dhwani RIS" /></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS%20Certified-DevOps%20Engineer%20Professional-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS DevOps Engineer – Professional" />
+  <img src="https://img.shields.io/badge/AWS%20Certified-Security%20Specialty-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Security – Specialty" />
 </p>
 
 ---
 
 ## About
 
-I'm a Sr. DevOps Engineer at **[Dhwani RIS](https://github.com/dhwani-ris)**, where I design, build, and operate cloud-native platforms for government & CSR-scale social-impact applications — including the **mGrant** grant-management platform used across dozens of donors and thousands of NGOs.
+I lead the DevOps practice at **[Dhwani RIS](https://github.com/dhwani-ris)** across two verticals: our SaaS
+product line, and the custom platforms we build when the product doesn't fit the client. Enterprise, NGO and
+government users, mostly on AWS.
 
-My work is turning infrastructure into code, automating the path from commit to production, and keeping systems reliable and cost-efficient — so engineers ship faster and platforms just stay up.
+The work runs the whole length of it — designing the architecture, provisioning it as code, holding the pager,
+and carrying platforms through the security due-diligence of banks and Big Four assessors.
 
-## What I Build
+**📄 Written case studies with architecture diagrams → [ankitjangir.cloudsaathi.com](https://ankitjangir.cloudsaathi.com)**
 
-- **Cloud platforms on AWS** — EKS clusters, networking, and IAM provisioned entirely with Terraform
-- **GitOps delivery** — ArgoCD with GitHub Actions / GitLab CI pipelines, quality gates, and zero-downtime deployments
-- **Frappe / ERPNext platform engineering** — standardized project templates and automated, gated release flows
-- **Observability & reliability** — Prometheus, Grafana, and Loki for metrics, logs, and alerting; backups, secrets, and cost control
+## What I work on
 
-## Featured Projects
+**Cloud platforms** — EKS with Karpenter provisioning against pending pods, multi-AZ, 500+ AWS resources in
+Terraform with remote state. Multi-account AWS Organizations with a dedicated security account aggregating
+GuardDuty, Security Hub, Config and CloudTrail.
 
-**[aws-email-rate-limiter](https://github.com/dhwani-ankit/aws-email-rate-limiter)** &nbsp;·&nbsp; `Python`
-Serverless solution to track and rate-limit outbound email per caller identity using AWS Lambda, DynamoDB, SES & SNS — with automatic SES deactivation once a daily quota is exceeded.
+**Agent tooling** — an orchestrator running specialist agents across three surfaces: code and application
+security, AWS posture and cost, and deployment. Detection stays rule-based and deterministic so findings are
+reproducible between runs; the model only triages, remediates and summarises.
 
-**[frappe-release-pipeline-demo](https://github.com/dhwani-ankit/frappe-release-pipeline-demo)** &nbsp;·&nbsp; `Shell`
-A complete automated release flow for Frappe applications: PR linting/testing/SonarQube checks, CODEOWNERS-based DevOps gatekeeping, and automated deployments.
+**Security programmes** — a 34-policy ISO 27001-aligned ISMS with 16 operational registers, vulnerability
+management driven through to revalidation, and SAST/SCA as blocking release gates.
 
-**[frappe-standard-template](https://github.com/dhwani-ankit/frappe-standard-template)** &nbsp;·&nbsp; `JavaScript`
-A standardized starter template for Frappe projects — QC-plan integration, branch-protection setup, and getting-started docs baked in for consistent, production-ready repositories.
+**Delivery** — CI/CD in GitHub Actions, Jenkins and Azure DevOps; observability on Prometheus, Grafana and
+Loki with external synthetic checks.
 
-## Tech
+## Repositories here
 
-**Cloud & IaC** &nbsp;
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+| | |
+|---|---|
+| **[aws-email-rate-limiter](https://github.com/dhwani-ankit/aws-email-rate-limiter)** | Serverless per-identity email rate limiting — Lambda, DynamoDB, SES and SNS, with automatic SES deactivation once a daily quota is exceeded. `Python` |
+| **[frappe-release-pipeline-demo](https://github.com/dhwani-ankit/frappe-release-pipeline-demo)** | Automated release flow for Frappe apps — PR linting, tests and SonarQube gates, CODEOWNERS-enforced DevOps approval, gated deployment. `Shell` |
+| **[frappe-standard-template](https://github.com/dhwani-ankit/frappe-standard-template)** | Project template with branch protection, a QC merge-readiness checklist, and CI wired up from the first commit. `JavaScript` |
 
-**Containers & Orchestration** &nbsp;
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+Most of what I build is internal or client-side and lives in private repositories. The portfolio describes that
+work in detail, with client specifics omitted.
 
-**CI/CD & GitOps** &nbsp;
-![ArgoCD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+## Stack
 
-**Languages** &nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Frappe](https://img.shields.io/badge/Frappe-0089FF?style=flat-square&logo=frappe&logoColor=white)
+`AWS` `Azure` `Kubernetes / EKS` `Docker` `Terraform` `CloudFormation` `Helm`
+`GitHub Actions` `Jenkins` `Azure DevOps` `Prometheus` `Grafana` `Loki`
+`Python` `Bash` `PostgreSQL` `MySQL` `MongoDB`
 
-**Observability & Data** &nbsp;
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+## Get in touch
 
-## Get in Touch
+Open to conversations about platform engineering, cloud infrastructure and DevSecOps — and currently open
+to new roles.
 
-Open to conversations on platform engineering, cloud infrastructure, and DevOps for social impact.
-
-- 💼 LinkedIn — [in/ankit-jangir-devops](https://www.linkedin.com/in/ankit-jangir-devops)
-- 📫 Email — ankitjangir.1690@gmail.com
-
----
-
-<p align="center"><sub><i>Building reliable platforms for technology that does good. 🌱</i></sub></p>
+- 🌐 **[ankitjangir.cloudsaathi.com](https://ankitjangir.cloudsaathi.com)**
+- 💼 [LinkedIn](https://www.linkedin.com/in/ankit-jangir-7a3955140/)
+- 📫 ankitjangir.1690@gmail.com
+- 📍 New Delhi, India
