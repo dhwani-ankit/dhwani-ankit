@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://ankitjangir.cloudsaathi.com"><img src="https://img.shields.io/badge/Portfolio-2D6A4F?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://ankitjangir.cloudsaathi.com"><img src="https://img.shields.io/badge/Portfolio-1B4332?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyYTEwIDEwIDAgMSAwIDAgMjAgMTAgMTAgMCAwIDAgMC0yMG02LjkgNmgtMi45NWExNS42IDE1LjYgMCAwIDAtMS4zOC0zLjU2QTguMDMgOC4wMyAwIDAgMSAxOC45MiA4TTEyIDQuMDRjLjgzIDEuMiAxLjQ4IDIuNTMgMS45MSAzLjk2aC0zLjgyYy40My0xLjQzIDEuMDgtMi43NiAxLjkxLTMuOTZNNC4yNiAxNGE3LjggNy44IDAgMCAxIDAtNGgzLjM4YTE2LjUgMTYuNSAwIDAgMCAwIDR6bS44MiAyaDIuOTVjLjMyIDEuMjUuNzggMi40NSAxLjM4IDMuNTZBNy45OSA3Ljk5IDAgMCAxIDUuMDggMTZtMi45NS04SDUuMDhhNy45OSA3Ljk5IDAgMCAxIDQuMzMtMy41NkExNS42IDE1LjYgMCAwIDAgOC4wMyA4TTEyIDE5Ljk2Yy0uODMtMS4yLTEuNDgtMi41My0xLjkxLTMuOTZoMy44MkExNS42IDE1LjYgMCAwIDEgMTIgMTkuOTZNMTQuMzQgMTRIOS42NmExNC43IDE0LjcgMCAwIDEgMC00aDQuNjhhMTQuNyAxNC43IDAgMCAxIDAgNG0uMjUgNS41NmMuNi0xLjExIDEuMDYtMi4zMSAxLjM4LTMuNTZoMi45NWE4LjAzIDguMDMgMCAwIDEtNC4zMyAzLjU2TTE2LjM2IDE0YTE2LjUgMTYuNSAwIDAgMCAwLTRoMy4zOGE3LjggNy44IDAgMCAxIDAgNHoiLz48L3N2Zz4=" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/ankit-jangir-7a3955140/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:ankitjangir.1690@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:ankitjangir.1690@gmail.com"><img src="https://img.shields.io/badge/Email-2D6A4F?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMCA0SDRhMiAyIDAgMCAwLTIgMnYxMmEyIDIgMCAwIDAgMiAyaDE2YTIgMiAwIDAgMCAyLTJWNmEyIDIgMCAwIDAtMi0yem0wIDQtOCA1LTgtNVY2bDggNSA4LTV6Ii8+PC9zdmc+" alt="Email" /></a>
 </p>
 
 <p align="center">
