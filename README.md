@@ -50,19 +50,18 @@ Loki with external synthetic checks.
 
 ## Open source
 
-Published under **[Doot-Workspaces](https://github.com/Doot-Workspaces)** — the pieces of my work that
-generalise, extracted and documented.
+The pieces of my work that generalise — extracted, documented and published.
 
 | | |
 |---|---|
-| **[terraform-aws-static-site](https://github.com/Doot-Workspaces/terraform-aws-static-site)** | S3 + CloudFront + ACM + Route 53. Private origin reached only through Origin Access Control, bucket policy scoped by `SourceArn` to a single distribution. My portfolio runs on it. `Terraform` |
-| **[github-actions-aws-oidc](https://github.com/Doot-Workspaces/github-actions-aws-oidc)** | Keyless CI auth — and the failure I could not find documented anywhere: GitHub now emits subject claims embedding numeric org/repo IDs, so trust policies matching the documented format silently fail. `Terraform` |
-| **[iso27001-isms-starter](https://github.com/Doot-Workspaces/iso27001-isms-starter)** | 20 policy templates and the 9 registers that evidence them. Policies alone fail assessments — the next question is always "show me that this happened". `Markdown` |
-| **[eks-karpenter-reference](https://github.com/Doot-Workspaces/eks-karpenter-reference)** | EKS where Karpenter owns compute. Bootstrap node group deliberately tiny; spot interruption queue included rather than left as an exercise. `Terraform` |
-| **[aws-cost-daily-report](https://github.com/Doot-Workspaces/aws-cost-daily-report)** | Daily spend plus what to do about it — idle volumes, unassociated addresses, stopped instances still billing storage. 10 tests, no AWS account needed. `Python` |
-| **[frappe-devops-toolkit](https://github.com/Doot-Workspaces/frappe-devops-toolkit)** | Deploy, health check and backup verification for Frappe benches. The deploy script refuses any site whose name contains "prod". `Bash` |
+| **[terraform-aws-static-site](https://github.com/dhwani-ankit/terraform-aws-static-site)** | S3 + CloudFront + ACM + Route 53. Private origin reached only through Origin Access Control, bucket policy scoped by `SourceArn` to a single distribution. My portfolio runs on it. `Terraform` |
+| **[github-actions-aws-oidc](https://github.com/dhwani-ankit/github-actions-aws-oidc)** | Keyless CI auth — and the failure I could not find documented anywhere: GitHub now emits subject claims embedding numeric org/repo IDs, so trust policies matching the documented format silently fail. `Terraform` |
+| **[iso27001-isms-starter](https://github.com/dhwani-ankit/iso27001-isms-starter)** | 20 policy templates and the 9 registers that evidence them. Policies alone fail assessments — the next question is always "show me that this happened". `Markdown` |
+| **[eks-karpenter-reference](https://github.com/dhwani-ankit/eks-karpenter-reference)** | EKS where Karpenter owns compute. Bootstrap node group deliberately tiny; spot interruption queue included rather than left as an exercise. `Terraform` |
+| **[aws-cost-daily-report](https://github.com/dhwani-ankit/aws-cost-daily-report)** | Daily spend plus what to do about it — idle volumes, unassociated addresses, stopped instances still billing storage. 10 tests, no AWS account needed. `Python` |
+| **[frappe-devops-toolkit](https://github.com/dhwani-ankit/frappe-devops-toolkit)** | Deploy, health check and backup verification for Frappe benches. The deploy script refuses any site whose name contains "prod". `Bash` |
 
-## Also on this account
+### Earlier work
 
 | | |
 |---|---|
