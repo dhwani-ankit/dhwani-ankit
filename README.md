@@ -61,17 +61,6 @@ The pieces of my work that generalise — extracted, documented and published.
 | **[aws-cost-daily-report](https://github.com/dhwani-ankit/aws-cost-daily-report)** | Daily spend plus what to do about it — idle volumes, unassociated addresses, stopped instances still billing storage. 10 tests, no AWS account needed. `Python` |
 | **[frappe-devops-toolkit](https://github.com/dhwani-ankit/frappe-devops-toolkit)** | Deploy, health check and backup verification for Frappe benches. The deploy script refuses any site whose name contains "prod". `Bash` |
 
-### Earlier work
-
-| | |
-|---|---|
-| **[aws-email-rate-limiter](https://github.com/dhwani-ankit/aws-email-rate-limiter)** | Serverless per-identity email rate limiting — Lambda, DynamoDB, SES and SNS, with automatic SES deactivation once a daily quota is exceeded. `Python` |
-| **[frappe-release-pipeline-demo](https://github.com/dhwani-ankit/frappe-release-pipeline-demo)** | Automated release flow for Frappe apps — PR linting, tests and SonarQube gates, CODEOWNERS-enforced DevOps approval. `Shell` |
-| **[frappe-standard-template](https://github.com/dhwani-ankit/frappe-standard-template)** | Project template with branch protection, a QC merge-readiness checklist, and CI from the first commit. `JavaScript` |
-
-Client and product work stays in private repositories. The portfolio describes it in detail, with client
-specifics omitted.
-
 ## Stack
 
 `AWS` `Azure` `Kubernetes / EKS` `Docker` `Terraform` `CloudFormation` `Helm`
