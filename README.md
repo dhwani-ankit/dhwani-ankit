@@ -48,16 +48,30 @@ management driven through to revalidation, and SAST/SCA as blocking release gate
 **Delivery** — CI/CD in GitHub Actions, Jenkins and Azure DevOps; observability on Prometheus, Grafana and
 Loki with external synthetic checks.
 
-## Repositories here
+## Open source
+
+Published under **[Doot-Workspaces](https://github.com/Doot-Workspaces)** — the pieces of my work that
+generalise, extracted and documented.
+
+| | |
+|---|---|
+| **[terraform-aws-static-site](https://github.com/Doot-Workspaces/terraform-aws-static-site)** | S3 + CloudFront + ACM + Route 53. Private origin reached only through Origin Access Control, bucket policy scoped by `SourceArn` to a single distribution. My portfolio runs on it. `Terraform` |
+| **[github-actions-aws-oidc](https://github.com/Doot-Workspaces/github-actions-aws-oidc)** | Keyless CI auth — and the failure I could not find documented anywhere: GitHub now emits subject claims embedding numeric org/repo IDs, so trust policies matching the documented format silently fail. `Terraform` |
+| **[iso27001-isms-starter](https://github.com/Doot-Workspaces/iso27001-isms-starter)** | 20 policy templates and the 9 registers that evidence them. Policies alone fail assessments — the next question is always "show me that this happened". `Markdown` |
+| **[eks-karpenter-reference](https://github.com/Doot-Workspaces/eks-karpenter-reference)** | EKS where Karpenter owns compute. Bootstrap node group deliberately tiny; spot interruption queue included rather than left as an exercise. `Terraform` |
+| **[aws-cost-daily-report](https://github.com/Doot-Workspaces/aws-cost-daily-report)** | Daily spend plus what to do about it — idle volumes, unassociated addresses, stopped instances still billing storage. 10 tests, no AWS account needed. `Python` |
+| **[frappe-devops-toolkit](https://github.com/Doot-Workspaces/frappe-devops-toolkit)** | Deploy, health check and backup verification for Frappe benches. The deploy script refuses any site whose name contains "prod". `Bash` |
+
+## Also on this account
 
 | | |
 |---|---|
 | **[aws-email-rate-limiter](https://github.com/dhwani-ankit/aws-email-rate-limiter)** | Serverless per-identity email rate limiting — Lambda, DynamoDB, SES and SNS, with automatic SES deactivation once a daily quota is exceeded. `Python` |
-| **[frappe-release-pipeline-demo](https://github.com/dhwani-ankit/frappe-release-pipeline-demo)** | Automated release flow for Frappe apps — PR linting, tests and SonarQube gates, CODEOWNERS-enforced DevOps approval, gated deployment. `Shell` |
-| **[frappe-standard-template](https://github.com/dhwani-ankit/frappe-standard-template)** | Project template with branch protection, a QC merge-readiness checklist, and CI wired up from the first commit. `JavaScript` |
+| **[frappe-release-pipeline-demo](https://github.com/dhwani-ankit/frappe-release-pipeline-demo)** | Automated release flow for Frappe apps — PR linting, tests and SonarQube gates, CODEOWNERS-enforced DevOps approval. `Shell` |
+| **[frappe-standard-template](https://github.com/dhwani-ankit/frappe-standard-template)** | Project template with branch protection, a QC merge-readiness checklist, and CI from the first commit. `JavaScript` |
 
-Most of what I build is internal or client-side and lives in private repositories. The portfolio describes that
-work in detail, with client specifics omitted.
+Client and product work stays in private repositories. The portfolio describes it in detail, with client
+specifics omitted.
 
 ## Stack
 
