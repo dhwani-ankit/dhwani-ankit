@@ -76,3 +76,6 @@ to new roles.
 - 💼 [LinkedIn](https://www.linkedin.com/in/ankit-jangir-7a3955140/)
 - 📫 ankitjangir.1690@gmail.com
 - 📍 New Delhi, India
+
+
+<!-- Security scan triggered at 2026-08-31 16:56:17 -->
